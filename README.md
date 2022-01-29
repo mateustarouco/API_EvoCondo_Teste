@@ -1,12 +1,12 @@
 # API EvoCondo
 ### Desenvolvido em Django 
 ___
-####Para rodar o Ambiente vitual e dependencias: 
+#### Para rodar o Ambiente vitual e dependencias: 
 
 ~~~
 core\venv\Scripts\Activate
 ~~~~
-###rodar servidor
+### Rodar Servidor
 
 ~~~
 python manage.py runserver
