@@ -1,13 +1,15 @@
 # API EvoCondo
 ### Desenvolvido em Django 
 ___
-#### Para rodar o Ambiente vitual e dependencias: 
+### Para rodar o Ambiente vitual e dependencias: 
+###### Não Rodar no Pycharm(rodar na pasta raiz)
 
 ~~~
 core\venv\Scripts\Activate
-~~~~
-### Rodar Servidor
+~~~
 
+### Rodar Servidor
+###### Não Rodar no Pycharm(rodar na pasta raiz)
 ~~~
 python manage.py runserver
 ~~~

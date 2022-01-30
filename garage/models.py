@@ -1,7 +1,7 @@
 from django.db import models
 
 class Garage(models.Model):
-    rg = models.CharField(max_length=10)
+    rg = models.CharField(max_length=10, unique=True)
     name = models.CharField(max_length=50)
     number = models.CharField(max_length=100)
     vieicle = models.CharField(max_length=30)

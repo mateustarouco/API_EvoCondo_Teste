@@ -1,7 +1,7 @@
 from django.db import models
 
 class OperatorCondom(models.Model):
-    rg = models.CharField(max_length=9)
+    rg = models.CharField(max_length=10 , unique=True)
     cpf = models.CharField(max_length=11)
     telefone = models.CharField(max_length=14)
     name = models.CharField(max_length=50)

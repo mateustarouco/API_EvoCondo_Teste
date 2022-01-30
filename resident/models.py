@@ -3,7 +3,7 @@ from django.db import models
 
 
 class Resident(models.Model):
-    rg = models.CharField(max_length=10,unique=True)
+    rg = models.CharField(max_length=10, unique=True)
     cpf = models.CharField(max_length=11)
     telefone = models.CharField(max_length=14)
     name = models.CharField(max_length=50)
@@ -13,7 +13,7 @@ class Resident(models.Model):
     create = models.DateField(auto_now_add=True)
     updated = models.DateField(auto_now=True)
     last_access = models.DateField()
-    familyID = models.IntegerField(unique=True)
+    familyID = models.IntegerField(unique=False)
 
     def __str__(self):
         return self.name
